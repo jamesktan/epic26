@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5422540C16E2A46400E91A83 /* epic26_short_score.png in Resources */ = {isa = PBXBuildFile; fileRef = 5422540B16E2A46400E91A83 /* epic26_short_score.png */; };
+		5422540E16E2B1AD00E91A83 /* epic_26_sexualAssessment.png in Resources */ = {isa = PBXBuildFile; fileRef = 5422540D16E2B1AD00E91A83 /* epic_26_sexualAssessment.png */; };
+		54701B7316B2637B00739852 /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54701B7016B2637B00739852 /* banner.jpg */; };
+		54701B7416B2637B00739852 /* best1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54701B7116B2637B00739852 /* best1.jpg */; };
+		54701B7516B2637B00739852 /* best2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54701B7216B2637B00739852 /* best2.jpg */; };
+		54701B9B16B392BB00739852 /* epic26ShortFormData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54701B9A16B392BB00739852 /* epic26ShortFormData.plist */; };
+		54701BA216B3A03E00739852 /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 54701BA116B39F4900739852 /* NIDropDown.m */; };
+		5473B01016B64D3C00AF14FA /* sparrowLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5473B00F16B64D3C00AF14FA /* sparrowLogo.png */; };
+		54AF58F016DEF46D0027DE69 /* epic26_short.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AF58EF16DEF46D0027DE69 /* epic26_short.png */; };
+		54AF58F216DF06010027DE69 /* sparrow_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AF58F116DF06010027DE69 /* sparrow_logo.png */; };
+		54AF58F416DF06930027DE69 /* back_yello.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AF58F316DF06930027DE69 /* back_yello.png */; };
+		54AF58F616DF081D0027DE69 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AF58F516DF081D0027DE69 /* Untitled.png */; };
+		54BE1F7016B4FE1100376E54 /* epic26shortFormIDs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54BE1F6F16B4FE1100376E54 /* epic26shortFormIDs.plist */; };
+		54C0B03B16ACF29000CDD5C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C0B03A16ACF29000CDD5C4 /* UIKit.framework */; };
+		54C0B03D16ACF29000CDD5C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C0B03C16ACF29000CDD5C4 /* Foundation.framework */; };
+		54C0B03F16ACF29000CDD5C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C0B03E16ACF29000CDD5C4 /* CoreGraphics.framework */; };
+		54C0B04516ACF29000CDD5C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54C0B04316ACF29000CDD5C4 /* InfoPlist.strings */; };
+		54C0B04716ACF29000CDD5C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C0B04616ACF29000CDD5C4 /* main.m */; };
+		54C0B04B16ACF29000CDD5C4 /* UCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C0B04A16ACF29000CDD5C4 /* UCDAppDelegate.m */; };
+		54C0B04D16ACF29000CDD5C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C0B04C16ACF29000CDD5C4 /* Default.png */; };
+		54C0B04F16ACF29000CDD5C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C0B04E16ACF29000CDD5C4 /* Default@2x.png */; };
+		54C0B05116ACF29000CDD5C4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C0B05016ACF29000CDD5C4 /* Default-568h@2x.png */; };
+		54C0B05416ACF29000CDD5C4 /* UCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C0B05316ACF29000CDD5C4 /* UCDViewController.m */; };
+		54C0B05716ACF29000CDD5C4 /* UCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54C0B05516ACF29000CDD5C4 /* UCDViewController.xib */; };
+		54C0B06416ACF82D00CDD5C4 /* UCDAboutUCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C0B06216ACF82D00CDD5C4 /* UCDAboutUCDViewController.m */; };
+		54C0B06516ACF82D00CDD5C4 /* UCDAboutUCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54C0B06316ACF82D00CDD5C4 /* UCDAboutUCDViewController.xib */; };
+		54C0B06916ACFAF900CDD5C4 /* UCDAboutEPICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C0B06716ACFAF900CDD5C4 /* UCDAboutEPICViewController.m */; };
+		54C0B06A16ACFAF900CDD5C4 /* UCDAboutEPICViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54C0B06816ACFAF900CDD5C4 /* UCDAboutEPICViewController.xib */; };
+		54C0B07016ACFBBE00CDD5C4 /* UCDAboutEULAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C0B06E16ACFBBE00CDD5C4 /* UCDAboutEULAViewController.m */; };
+		54C0B07116ACFBBE00CDD5C4 /* UCDAboutEULAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54C0B06F16ACFBBE00CDD5C4 /* UCDAboutEULAViewController.xib */; };
+		54C0B07616ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C0B07416ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.m */; };
+		54C0B07716ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54C0B07516ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.xib */; };
+		54F2199C16AE915500ACF34B /* blue_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F2199816AE915500ACF34B /* blue_box.png */; };
+		54F2199D16AE915500ACF34B /* gold_light_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F2199916AE915500ACF34B /* gold_light_box.png */; };
+		54F2199E16AE915500ACF34B /* gold_dark_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F2199A16AE915500ACF34B /* gold_dark_box.png */; };
+		54F2199F16AE915500ACF34B /* grey_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F2199B16AE915500ACF34B /* grey_box.png */; };
+		54F219A216AE928F00ACF34B /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54F219A116AE928F00ACF34B /* logo.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5422540B16E2A46400E91A83 /* epic26_short_score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = epic26_short_score.png; sourceTree = "<group>"; };
+		5422540D16E2B1AD00E91A83 /* epic_26_sexualAssessment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = epic_26_sexualAssessment.png; sourceTree = "<group>"; };
+		54701B7016B2637B00739852 /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+		54701B7116B2637B00739852 /* best1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = best1.jpg; sourceTree = "<group>"; };
+		54701B7216B2637B00739852 /* best2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = best2.jpg; sourceTree = "<group>"; };
+		54701B9A16B392BB00739852 /* epic26ShortFormData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = epic26ShortFormData.plist; sourceTree = "<group>"; };
+		54701BA016B39F4900739852 /* NIDropDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NIDropDown.h; path = ../NIDropDown.h; sourceTree = "<group>"; };
+		54701BA116B39F4900739852 /* NIDropDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NIDropDown.m; path = ../NIDropDown.m; sourceTree = "<group>"; };
+		5473B00F16B64D3C00AF14FA /* sparrowLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparrowLogo.png; sourceTree = "<group>"; };
+		54AF58EF16DEF46D0027DE69 /* epic26_short.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = epic26_short.png; sourceTree = "<group>"; };
+		54AF58F116DF06010027DE69 /* sparrow_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparrow_logo.png; sourceTree = "<group>"; };
+		54AF58F316DF06930027DE69 /* back_yello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_yello.png; sourceTree = "<group>"; };
+		54AF58F516DF081D0027DE69 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		54BE1F6F16B4FE1100376E54 /* epic26shortFormIDs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = epic26shortFormIDs.plist; sourceTree = "<group>"; };
+		54C0B03616ACF29000CDD5C4 /* EPIC.Urology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPIC.Urology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C0B03A16ACF29000CDD5C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54C0B03C16ACF29000CDD5C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54C0B03E16ACF29000CDD5C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54C0B04216ACF29000CDD5C4 /* EPIC.Urology-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPIC.Urology-Info.plist"; sourceTree = "<group>"; };
+		54C0B04416ACF29000CDD5C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54C0B04616ACF29000CDD5C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54C0B04816ACF29000CDD5C4 /* EPIC.Urology-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPIC.Urology-Prefix.pch"; sourceTree = "<group>"; };
+		54C0B04916ACF29000CDD5C4 /* UCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCDAppDelegate.h; sourceTree = "<group>"; };
+		54C0B04A16ACF29000CDD5C4 /* UCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCDAppDelegate.m; sourceTree = "<group>"; };
+		54C0B04C16ACF29000CDD5C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		54C0B04E16ACF29000CDD5C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		54C0B05016ACF29000CDD5C4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		54C0B05216ACF29000CDD5C4 /* UCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCDViewController.h; sourceTree = "<group>"; };
+		54C0B05316ACF29000CDD5C4 /* UCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCDViewController.m; sourceTree = "<group>"; };
+		54C0B05616ACF29000CDD5C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UCDViewController.xib; sourceTree = "<group>"; };
+		54C0B06116ACF82D00CDD5C4 /* UCDAboutUCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCDAboutUCDViewController.h; sourceTree = "<group>"; };
+		54C0B06216ACF82D00CDD5C4 /* UCDAboutUCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCDAboutUCDViewController.m; sourceTree = "<group>"; };
+		54C0B06316ACF82D00CDD5C4 /* UCDAboutUCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UCDAboutUCDViewController.xib; sourceTree = "<group>"; };
+		54C0B06616ACFAF900CDD5C4 /* UCDAboutEPICViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCDAboutEPICViewController.h; sourceTree = "<group>"; };
+		54C0B06716ACFAF900CDD5C4 /* UCDAboutEPICViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCDAboutEPICViewController.m; sourceTree = "<group>"; };
+		54C0B06816ACFAF900CDD5C4 /* UCDAboutEPICViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UCDAboutEPICViewController.xib; sourceTree = "<group>"; };
+		54C0B06D16ACFBBE00CDD5C4 /* UCDAboutEULAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCDAboutEULAViewController.h; sourceTree = "<group>"; };
+		54C0B06E16ACFBBE00CDD5C4 /* UCDAboutEULAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCDAboutEULAViewController.m; sourceTree = "<group>"; };
+		54C0B06F16ACFBBE00CDD5C4 /* UCDAboutEULAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UCDAboutEULAViewController.xib; sourceTree = "<group>"; };
+		54C0B07316ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCD_EPIC26_ShortViewController.h; sourceTree = "<group>"; };
+		54C0B07416ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCD_EPIC26_ShortViewController.m; sourceTree = "<group>"; };
+		54C0B07516ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UCD_EPIC26_ShortViewController.xib; sourceTree = "<group>"; };
+		54F2199816AE915500ACF34B /* blue_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_box.png; sourceTree = "<group>"; };
+		54F2199916AE915500ACF34B /* gold_light_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_light_box.png; sourceTree = "<group>"; };
+		54F2199A16AE915500ACF34B /* gold_dark_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_dark_box.png; sourceTree = "<group>"; };
+		54F2199B16AE915500ACF34B /* grey_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey_box.png; sourceTree = "<group>"; };
+		54F219A116AE928F00ACF34B /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C0B03316ACF29000CDD5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C0B03B16ACF29000CDD5C4 /* UIKit.framework in Frameworks */,
+				54C0B03D16ACF29000CDD5C4 /* Foundation.framework in Frameworks */,
+				54C0B03F16ACF29000CDD5C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54C0B02B16ACF29000CDD5C4 = {
+			isa = PBXGroup;
+			children = (
+				54AF58F516DF081D0027DE69 /* Untitled.png */,
+				54C0B04016ACF29000CDD5C4 /* EPIC.Urology */,
+				54C0B03916ACF29000CDD5C4 /* Frameworks */,
+				54C0B03716ACF29000CDD5C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54C0B03716ACF29000CDD5C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C0B03616ACF29000CDD5C4 /* EPIC.Urology.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54C0B03916ACF29000CDD5C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C0B03A16ACF29000CDD5C4 /* UIKit.framework */,
+				54C0B03C16ACF29000CDD5C4 /* Foundation.framework */,
+				54C0B03E16ACF29000CDD5C4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54C0B04016ACF29000CDD5C4 /* EPIC.Urology */ = {
+			isa = PBXGroup;
+			children = (
+				54AF58EF16DEF46D0027DE69 /* epic26_short.png */,
+				5422540D16E2B1AD00E91A83 /* epic_26_sexualAssessment.png */,
+				5422540B16E2A46400E91A83 /* epic26_short_score.png */,
+				54C0B04916ACF29000CDD5C4 /* UCDAppDelegate.h */,
+				54AF58F316DF06930027DE69 /* back_yello.png */,
+				54C0B04A16ACF29000CDD5C4 /* UCDAppDelegate.m */,
+				54C0B05216ACF29000CDD5C4 /* UCDViewController.h */,
+				54C0B05316ACF29000CDD5C4 /* UCDViewController.m */,
+				54C0B05516ACF29000CDD5C4 /* UCDViewController.xib */,
+				54AF58F116DF06010027DE69 /* sparrow_logo.png */,
+				54C0B07316ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.h */,
+				54C0B07416ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.m */,
+				54C0B07516ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.xib */,
+				54C0B07216ACFBCC00CDD5C4 /* About EULA */,
+				54C0B06B16ACFB0300CDD5C4 /* About UCD */,
+				54C0B06C16ACFB1700CDD5C4 /* About EPIC */,
+				54C0B04116ACF29000CDD5C4 /* Supporting Files */,
+			);
+			path = EPIC.Urology;
+			sourceTree = "<group>";
+		};
+		54C0B04116ACF29000CDD5C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5473B00F16B64D3C00AF14FA /* sparrowLogo.png */,
+				54701BA016B39F4900739852 /* NIDropDown.h */,
+				54701BA116B39F4900739852 /* NIDropDown.m */,
+				54701B7016B2637B00739852 /* banner.jpg */,
+				54701B7116B2637B00739852 /* best1.jpg */,
+				54701B7216B2637B00739852 /* best2.jpg */,
+				54F219A116AE928F00ACF34B /* logo.gif */,
+				54F2199816AE915500ACF34B /* blue_box.png */,
+				54F2199916AE915500ACF34B /* gold_light_box.png */,
+				54F2199A16AE915500ACF34B /* gold_dark_box.png */,
+				54F2199B16AE915500ACF34B /* grey_box.png */,
+				54C0B04216ACF29000CDD5C4 /* EPIC.Urology-Info.plist */,
+				54C0B04316ACF29000CDD5C4 /* InfoPlist.strings */,
+				54C0B04616ACF29000CDD5C4 /* main.m */,
+				54C0B04816ACF29000CDD5C4 /* EPIC.Urology-Prefix.pch */,
+				54C0B04C16ACF29000CDD5C4 /* Default.png */,
+				54C0B04E16ACF29000CDD5C4 /* Default@2x.png */,
+				54C0B05016ACF29000CDD5C4 /* Default-568h@2x.png */,
+				54701B9A16B392BB00739852 /* epic26ShortFormData.plist */,
+				54BE1F6F16B4FE1100376E54 /* epic26shortFormIDs.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54C0B06B16ACFB0300CDD5C4 /* About UCD */ = {
+			isa = PBXGroup;
+			children = (
+				54C0B06116ACF82D00CDD5C4 /* UCDAboutUCDViewController.h */,
+				54C0B06216ACF82D00CDD5C4 /* UCDAboutUCDViewController.m */,
+				54C0B06316ACF82D00CDD5C4 /* UCDAboutUCDViewController.xib */,
+			);
+			name = "About UCD";
+			sourceTree = "<group>";
+		};
+		54C0B06C16ACFB1700CDD5C4 /* About EPIC */ = {
+			isa = PBXGroup;
+			children = (
+				54C0B06616ACFAF900CDD5C4 /* UCDAboutEPICViewController.h */,
+				54C0B06716ACFAF900CDD5C4 /* UCDAboutEPICViewController.m */,
+				54C0B06816ACFAF900CDD5C4 /* UCDAboutEPICViewController.xib */,
+			);
+			name = "About EPIC";
+			sourceTree = "<group>";
+		};
+		54C0B07216ACFBCC00CDD5C4 /* About EULA */ = {
+			isa = PBXGroup;
+			children = (
+				54C0B06D16ACFBBE00CDD5C4 /* UCDAboutEULAViewController.h */,
+				54C0B06E16ACFBBE00CDD5C4 /* UCDAboutEULAViewController.m */,
+				54C0B06F16ACFBBE00CDD5C4 /* UCDAboutEULAViewController.xib */,
+			);
+			name = "About EULA";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C0B03516ACF29000CDD5C4 /* EPIC.Urology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C0B05A16ACF29000CDD5C4 /* Build configuration list for PBXNativeTarget "EPIC.Urology" */;
+			buildPhases = (
+				54C0B03216ACF29000CDD5C4 /* Sources */,
+				54C0B03316ACF29000CDD5C4 /* Frameworks */,
+				54C0B03416ACF29000CDD5C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPIC.Urology;
+			productName = EPIC.Urology;
+			productReference = 54C0B03616ACF29000CDD5C4 /* EPIC.Urology.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C0B02D16ACF29000CDD5C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UCD;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = UCDavis;
+			};
+			buildConfigurationList = 54C0B03016ACF29000CDD5C4 /* Build configuration list for PBXProject "EPIC.Urology" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54C0B02B16ACF29000CDD5C4;
+			productRefGroup = 54C0B03716ACF29000CDD5C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C0B03516ACF29000CDD5C4 /* EPIC.Urology */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C0B03416ACF29000CDD5C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C0B04516ACF29000CDD5C4 /* InfoPlist.strings in Resources */,
+				54C0B04D16ACF29000CDD5C4 /* Default.png in Resources */,
+				54C0B04F16ACF29000CDD5C4 /* Default@2x.png in Resources */,
+				54C0B05116ACF29000CDD5C4 /* Default-568h@2x.png in Resources */,
+				54C0B05716ACF29000CDD5C4 /* UCDViewController.xib in Resources */,
+				54C0B06516ACF82D00CDD5C4 /* UCDAboutUCDViewController.xib in Resources */,
+				54C0B06A16ACFAF900CDD5C4 /* UCDAboutEPICViewController.xib in Resources */,
+				54C0B07116ACFBBE00CDD5C4 /* UCDAboutEULAViewController.xib in Resources */,
+				54C0B07716ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.xib in Resources */,
+				54F2199C16AE915500ACF34B /* blue_box.png in Resources */,
+				54F2199D16AE915500ACF34B /* gold_light_box.png in Resources */,
+				54F2199E16AE915500ACF34B /* gold_dark_box.png in Resources */,
+				54F2199F16AE915500ACF34B /* grey_box.png in Resources */,
+				54F219A216AE928F00ACF34B /* logo.gif in Resources */,
+				54701B7316B2637B00739852 /* banner.jpg in Resources */,
+				54701B7416B2637B00739852 /* best1.jpg in Resources */,
+				54701B7516B2637B00739852 /* best2.jpg in Resources */,
+				54701B9B16B392BB00739852 /* epic26ShortFormData.plist in Resources */,
+				54BE1F7016B4FE1100376E54 /* epic26shortFormIDs.plist in Resources */,
+				5473B01016B64D3C00AF14FA /* sparrowLogo.png in Resources */,
+				54AF58F016DEF46D0027DE69 /* epic26_short.png in Resources */,
+				54AF58F216DF06010027DE69 /* sparrow_logo.png in Resources */,
+				54AF58F416DF06930027DE69 /* back_yello.png in Resources */,
+				54AF58F616DF081D0027DE69 /* Untitled.png in Resources */,
+				5422540C16E2A46400E91A83 /* epic26_short_score.png in Resources */,
+				5422540E16E2B1AD00E91A83 /* epic_26_sexualAssessment.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C0B03216ACF29000CDD5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C0B04716ACF29000CDD5C4 /* main.m in Sources */,
+				54C0B04B16ACF29000CDD5C4 /* UCDAppDelegate.m in Sources */,
+				54C0B05416ACF29000CDD5C4 /* UCDViewController.m in Sources */,
+				54C0B06416ACF82D00CDD5C4 /* UCDAboutUCDViewController.m in Sources */,
+				54C0B06916ACFAF900CDD5C4 /* UCDAboutEPICViewController.m in Sources */,
+				54C0B07016ACFBBE00CDD5C4 /* UCDAboutEULAViewController.m in Sources */,
+				54C0B07616ACFDD100CDD5C4 /* UCD_EPIC26_ShortViewController.m in Sources */,
+				54701BA216B3A03E00739852 /* NIDropDown.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54C0B04316ACF29000CDD5C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C0B04416ACF29000CDD5C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54C0B05516ACF29000CDD5C4 /* UCDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C0B05616ACF29000CDD5C4 /* en */,
+			);
+			name = UCDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54C0B05816ACF29000CDD5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		54C0B05916ACF29000CDD5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54C0B05B16ACF29000CDD5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPIC.Urology/EPIC.Urology-Prefix.pch";
+				INFOPLIST_FILE = "EPIC.Urology/EPIC.Urology-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54C0B05C16ACF29000CDD5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPIC.Urology/EPIC.Urology-Prefix.pch";
+				INFOPLIST_FILE = "EPIC.Urology/EPIC.Urology-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C0B03016ACF29000CDD5C4 /* Build configuration list for PBXProject "EPIC.Urology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C0B05816ACF29000CDD5C4 /* Debug */,
+				54C0B05916ACF29000CDD5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C0B05A16ACF29000CDD5C4 /* Build configuration list for PBXNativeTarget "EPIC.Urology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C0B05B16ACF29000CDD5C4 /* Debug */,
+				54C0B05C16ACF29000CDD5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54C0B02D16ACF29000CDD5C4 /* Project object */;
+}
